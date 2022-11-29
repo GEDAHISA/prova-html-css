@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Conheça novos sabores</h1>
+    <h2>Seja direcionado a experimentar sabores inesqueciveis</h2>
+    <nav>
+        <ul class="menu" style="display: flex;">
+
+            <li> 
+                <a href="https://alheiras.com/entradas-rapidas/">Entrada</a>
+                <div>
+                    <img src="/IMAGENS/ENTRADA.webp" alt="Entradas" width="200" height="200">
+                </div>
+            </li>
+
+
+            <li> 
+                <a href="https://marettimo.com.br/blog/receitas-de-prato-principal-conheca-as-16-melhores-sugestoes/">Pricipal</a>
+                <div>
+                    <img src="/IMAGENS/jantar.jpg" alt="Principal" width="200" height="200">
+                </div>
+            </li>
+            
+
+            <li> 
+                <a href="https://www.tudogostoso.com.br/receita/305447-sobremesa-gostosa-de-bolacha-barra-biscoito-recheado.html">Sobremesas</a>
+                <div>
+                    <img src="/IMAGENS/sobremesa.jpg" alt="Sobremesa" width="200" height="200">
+                </div>
+            </li>
+           
+
+            <li><a
+                    href="https://govin.com.br/?gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkp8dT51DeFwDdaU5aZfbvhPHpY0_x5QolM_YE31OJssvfVwi9StRU0aAm70EALw_wcB">Bebidas</a>
+          
+            <div>
+            <img src="/IMAGENS/bebidas.jpg" alt="Bebidas" width="200" height="200">
+            </div>
+
+            </li>
+
+        </ul>
+    </nav>
+    <h3>Cadastre-se e faça o seu pedido</h3>
+    <form action="">
+        <label for="">Nome</label>
+        <input type="text" autofocus>
+
+       <label for="">Sobrenome</label>
+       <input type="text"><br><br>
+
+       <label for="">Data de nascimento</label>
+       <input type="date"><br><br>
+
+       <label for="">E-mail</label>
+       <input type="email"><br><br>
+
+       <label for="">Senha</label>
+       <input type="password"><br><br>
+       
+    <fieldset>
+        <legend>Finalize o seu pedido</legend>
+
+        <label for="pedido" class="label">Pedido</label>
+        <select name="pedido" id="pedido">
+            <option value="entrada">Entrada</option>
+            <option value="pratoprincipal">Prato Principal</option>
+            <option value="sobremesa">Sobremesa</option>
+            <option value="bebidas">Bebidas</option>
+        </select>
+
+        <label for="formadepagamento" class="label">Forma de Pagamento</label>
+        <select name="formadepagamento" id="pagamento">
+            <option value="dinheiro">Dinheiro</option>
+            <option value="cartao">Cartão</option>
+        </select>
+
+    </fieldset>
+
+    <button type="submit" class="button">Confirmar</button>
+    <button type="reset" class="button">Limpar</button>
+    
+    <footer>
+        <p><b>Sabores</b></p>
+ 
+    </footer>
+
+    </form>
+</body>
+
+</html>
